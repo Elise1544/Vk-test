@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  display: flex;
 }
 
 .interface {
@@ -11,7 +12,7 @@ body {
 
 .emoji {
   position: absolute;
-  /* display: none; */
+  display: none;
 
   top: -293px;
   left: 0;
@@ -131,4 +132,18 @@ body {
   border-radius: 3px;
   height: 77px;
   width: 6px;
+}
+
+.output-block {
+  width: 50%;
+}
+
+.output {
+  padding: 5px;
+
+  width: fit-content;
+  max-width: 100%;
+  word-wrap: break-word;
+  border: 1px solid blue;
+  border-radius: 5px;
 }
